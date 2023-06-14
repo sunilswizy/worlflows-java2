@@ -23,5 +23,5 @@ jobs:
           SONAR_TOKEN: 811c9a490983734401ba4e491eaefc8bfa7281de
         run: >-
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=sunilswizy_workflows-java
+          -Dsonar.projectKey=worlflows-java2
           -Dsonar.login=811c9a490983734401ba4e491eaefc8bfa7281de
